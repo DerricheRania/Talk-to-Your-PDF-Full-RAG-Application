@@ -10,7 +10,7 @@
 RAG stands for **Retrieval-Augmented Generation**. It combines two things:
 
 - **A retrieval system** finds the most relevant pieces of text from your document
-- **A language model (LLM)** — reads those pieces and generates a precise answer
+- **A language model (LLM)**, reads those pieces and generates a precise answer
 
 Without RAG, an LLM can only answer from its training data, it knows nothing about your specific PDF. With RAG, you give it the exact relevant passages as context, and it answers only from those. This means:
 
